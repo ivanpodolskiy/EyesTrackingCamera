@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		CE4419FF2BAC6A9800669DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4419FE2BAC6A9800669DB2 /* AppDelegate.swift */; };
 		CE441A012BAC6A9800669DB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A002BAC6A9800669DB2 /* SceneDelegate.swift */; };
-		CE441A032BAC6A9800669DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A022BAC6A9800669DB2 /* ViewController.swift */; };
-		CE441A062BAC6A9800669DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE441A042BAC6A9800669DB2 /* Main.storyboard */; };
+		CE441A032BAC6A9800669DB2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A022BAC6A9800669DB2 /* CameraViewController.swift */; };
 		CE441A082BAC6A9B00669DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE441A072BAC6A9B00669DB2 /* Assets.xcassets */; };
 		CE441A0B2BAC6A9B00669DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE441A092BAC6A9B00669DB2 /* LaunchScreen.storyboard */; };
+		CE441A132BAC7A5300669DB2 /* ActionBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A122BAC7A5200669DB2 /* ActionBottomBar.swift */; };
+		CE441A162BAC7A7700669DB2 /* LastPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A152BAC7A7700669DB2 /* LastPhotoView.swift */; };
+		CE441A182BAC8F8600669DB2 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A172BAC8F8600669DB2 /* CameraManager.swift */; };
+		CE441A1A2BAE1CAA00669DB2 /* ActionCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A192BAE1CA900669DB2 /* ActionCameraButton.swift */; };
+		CE441A1C2BAE1F1100669DB2 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A1B2BAE1F1100669DB2 /* NetworkingService.swift */; };
+		CE441A1F2BAF6F1300669DB2 /* ImageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE441A1E2BAF6F1300669DB2 /* ImageProperties.swift */; };
+		CECACDE22BB5B00700508A41 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECACDE12BB5B00700508A41 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE4419FB2BAC6A9800669DB2 /* EyesTrackingCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyesTrackingCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4419FE2BAC6A9800669DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE441A002BAC6A9800669DB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE441A022BAC6A9800669DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE441A052BAC6A9800669DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE441A022BAC6A9800669DB2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		CE441A072BAC6A9B00669DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE441A0A2BAC6A9B00669DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE441A0C2BAC6A9B00669DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE441A122BAC7A5200669DB2 /* ActionBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBottomBar.swift; sourceTree = "<group>"; };
+		CE441A152BAC7A7700669DB2 /* LastPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPhotoView.swift; sourceTree = "<group>"; };
+		CE441A172BAC8F8600669DB2 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		CE441A192BAE1CA900669DB2 /* ActionCameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCameraButton.swift; sourceTree = "<group>"; };
+		CE441A1B2BAE1F1100669DB2 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		CE441A1E2BAF6F1300669DB2 /* ImageProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProperties.swift; sourceTree = "<group>"; };
+		CECACDE12BB5B00700508A41 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,61 @@
 		CE4419FD2BAC6A9800669DB2 /* EyesTrackingCamera */ = {
 			isa = PBXGroup;
 			children = (
+				CE441A1D2BAF6EF200669DB2 /* Networking */,
+				CECACDE32BB5B42600508A41 /* Extension */,
+				CECACDE42BB5B43300508A41 /* Screen */,
 				CE4419FE2BAC6A9800669DB2 /* AppDelegate.swift */,
 				CE441A002BAC6A9800669DB2 /* SceneDelegate.swift */,
-				CE441A022BAC6A9800669DB2 /* ViewController.swift */,
-				CE441A042BAC6A9800669DB2 /* Main.storyboard */,
 				CE441A072BAC6A9B00669DB2 /* Assets.xcassets */,
 				CE441A092BAC6A9B00669DB2 /* LaunchScreen.storyboard */,
 				CE441A0C2BAC6A9B00669DB2 /* Info.plist */,
 			);
 			path = EyesTrackingCamera;
+			sourceTree = "<group>";
+		};
+		CE441A1D2BAF6EF200669DB2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CE441A1B2BAE1F1100669DB2 /* NetworkingService.swift */,
+				CE441A1E2BAF6F1300669DB2 /* ImageProperties.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CECACDE32BB5B42600508A41 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CECACDE12BB5B00700508A41 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CECACDE42BB5B43300508A41 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CECACDE82BB5B50C00508A41 /* CameraManager */,
+				CECACDE52BB5B44700508A41 /* Subiews */,
+				CE441A022BAC6A9800669DB2 /* CameraViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		CECACDE52BB5B44700508A41 /* Subiews */ = {
+			isa = PBXGroup;
+			children = (
+				CE441A122BAC7A5200669DB2 /* ActionBottomBar.swift */,
+				CE441A192BAE1CA900669DB2 /* ActionCameraButton.swift */,
+				CE441A152BAC7A7700669DB2 /* LastPhotoView.swift */,
+			);
+			path = Subiews;
+			sourceTree = "<group>";
+		};
+		CECACDE82BB5B50C00508A41 /* CameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE441A172BAC8F8600669DB2 /* CameraManager.swift */,
+			);
+			path = CameraManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +185,6 @@
 			files = (
 				CE441A0B2BAC6A9B00669DB2 /* LaunchScreen.storyboard in Resources */,
 				CE441A082BAC6A9B00669DB2 /* Assets.xcassets in Resources */,
-				CE441A062BAC6A9800669DB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE441A032BAC6A9800669DB2 /* ViewController.swift in Sources */,
+				CE441A132BAC7A5300669DB2 /* ActionBottomBar.swift in Sources */,
+				CE441A032BAC6A9800669DB2 /* CameraViewController.swift in Sources */,
+				CE441A182BAC8F8600669DB2 /* CameraManager.swift in Sources */,
+				CECACDE22BB5B00700508A41 /* Extension.swift in Sources */,
+				CE441A1C2BAE1F1100669DB2 /* NetworkingService.swift in Sources */,
+				CE441A1A2BAE1CAA00669DB2 /* ActionCameraButton.swift in Sources */,
 				CE4419FF2BAC6A9800669DB2 /* AppDelegate.swift in Sources */,
+				CE441A162BAC7A7700669DB2 /* LastPhotoView.swift in Sources */,
 				CE441A012BAC6A9800669DB2 /* SceneDelegate.swift in Sources */,
+				CE441A1F2BAF6F1300669DB2 /* ImageProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE441A042BAC6A9800669DB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE441A052BAC6A9800669DB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE441A092BAC6A9B00669DB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -292,13 +348,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62DBBK734T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EyesTrackingCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To make photos";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save Captured Photos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To save photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,13 +379,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62DBBK734T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EyesTrackingCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To make photos";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save Captured Photos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To save photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
